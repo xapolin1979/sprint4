@@ -63,9 +63,8 @@ const mostrarChistes = (): void => {
       }
     })
     .catch((error) => console.log(error));
-
-  aleatorio = Math.floor(Math.random() * arrayChistes.length -1);
-
+console.log('hola')
+  aleatorio = Math.floor(Math.random() * arrayChistes.length);
   contador++;
   let imagen1: any = document.querySelector("#img1");
   let imagen2: any = document.querySelector("#img2");
